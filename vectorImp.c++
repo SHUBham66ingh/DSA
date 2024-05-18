@@ -1,5 +1,7 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
+
 using namespace std;
 
 int main()
@@ -80,7 +82,20 @@ int main()
 //   cout<<i<<" ";
 // }
 
+vector<int>ans;
+ans.push_back(5);
+ans.push_back(235);
+ans.push_back(15);
+ans.push_back(54);
+ans.push_back(125);
+
+sort(ans.begin(),ans.end());
+for(int i=0;i<ans.size();i++)
+cout<<ans[i]<<" ";
 
 
-  return 0;
+
+
+
+return 0;
 }

@@ -88,14 +88,21 @@ ans.push_back(235);
 ans.push_back(15);
 ans.push_back(54);
 ans.push_back(125);
-
+// sort in decreasing order
 sort(ans.begin(),ans.end());
 for(int i=0;i<ans.size();i++)
 cout<<ans[i]<<" ";
 
+// cout<<endl;
+// // sort in increasing order
+// sort(ans.rbegin() , ans.rend());
+// for(int i=0;i<ans.size();i++)
+// cout<<ans[i]<<" ";
 
-
+cout<<endl;
+cout<<binary_search(ans.begin() , ans.end() , 54);
 
 
 return 0;
+
 }

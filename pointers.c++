@@ -11,4 +11,10 @@ int main()
     int *ptr =  &a;
     cout<<ptr<<endl;
 
+    float m = 2.6;
+    float *ptr1 = &m;
+     cout<<ptr1<<endl;
+
+
+
 }

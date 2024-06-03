@@ -22,8 +22,9 @@ int main()
     // cout<<ptr<<endl;
     // cout<<*ptr<<endl;
 
-
-    int *ptr = & arr[0];
+  int arr[5] = {11,7,8,12,14};
+    int *ptr = &arr[0];
+    int *ptr2= &arr[1];
 
 
 }

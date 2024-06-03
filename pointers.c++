@@ -17,11 +17,11 @@ int main()
 
     // cout<<sizeof(ptr)<<endl;
     // cout<<sizeof(ptr1)<<endl;
-     int a= 10;
-    int *ptr = &a;
-    cout<<ptr<<endl;
-    cout<<*ptr<<endl;
-    
+    //  int a= 10;
+    // int *ptr = &a;
+    // cout<<ptr<<endl;
+    // cout<<*ptr<<endl;
+
 
 
 

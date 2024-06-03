@@ -23,8 +23,10 @@ int main()
     // cout<<*ptr<<endl;
 
   int arr[5] = {11,7,8,12,14};
-    int *ptr = &arr[0];
-    int *ptr2= &arr[1];
+    for(int i=0;i<5;i++)
+    {
+         cout<<*(arr+i)<<endl;
+    }
 
 
 }

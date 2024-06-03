@@ -23,7 +23,7 @@ int main()
     // cout<<*ptr<<endl;
 
 
-
+    int *ptr = & arr[0];
 
 
 }

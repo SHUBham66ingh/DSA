@@ -13,7 +13,7 @@ int main()
 
     float m = 2.6;
     float *ptr1 = &m;
-    cout<<ptr1<<endl;
+    cout<<*ptr1<<endl;
 
 
 

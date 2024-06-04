@@ -27,7 +27,7 @@ int main()
     {
          cout<<*(arr+i)<<endl;
     }
-
+     cout<<endl;
     for(int i=0;i<5;i++)
     {
         cout<<(arr+i)<<endl;

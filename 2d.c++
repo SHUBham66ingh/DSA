@@ -13,9 +13,9 @@ int main()
         ptr[i] =  new int[m];
     }
 
-    for(int i=0;i<m;i++)
+    for(int i=0;i<n;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=0;j<m;j++)
         {
             cin>>ptr[i][j];
         }
@@ -26,7 +26,8 @@ int main()
     {
         for(int j=0;j<m;j++)
         {
-            cout<<ptr[i][j];
+            cout<<ptr[i][j]<<" ";
+            cout<<endl;
         }
     }
 

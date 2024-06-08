@@ -22,5 +22,6 @@ bool possible(int arr[], int day , int m , int k)
 
  int main()
  {
-
+    int bloomDay[] = {7,7,7,7,12,7,7};
+      possible(bloomDay,12,2,3);
  }

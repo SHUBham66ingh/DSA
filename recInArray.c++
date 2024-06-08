@@ -10,6 +10,16 @@ void printReverseArray(int arr[], int index)
     printReverseArray(arr, index-1);
 
 }
+
+void sum(int arr[] , int index , int n)
+{
+     if(index==n)
+     return ;
+     cout<<arr[index];
+     sum(arr , index+(index+1),n);
+}
+
+
 void printArray(int arr[] , int index , int n)
 {
     if(index==n)
@@ -23,6 +33,8 @@ int main()
    printArray(a,0,5);
    cout<<endl;
    printReverseArray(a,4);
+
+   sum(a,0,5);
    
 
 

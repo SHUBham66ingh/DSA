@@ -1,6 +1,14 @@
 #include<iostream>
 using namespace std;
 
+ int sum(int arr[] , int index, int n)
+ {
+    if(index==n)
+    return 0;
+
+    return arr[index] + sum(arr, index+1 , n);
+ }
+
 
 void printReverseArray(int arr[], int index)
 {
@@ -9,14 +17,6 @@ void printReverseArray(int arr[], int index)
     cout<<arr[index]<<" ";
     printReverseArray(arr, index-1);
 
-}
-
-void sum(int arr[] , int index , int n)
-{
-     if(index==n)
-     return ;
-     cout<<arr[index];
-     sum(arr , index+(index+1),n);
 }
 
 
@@ -33,7 +33,7 @@ int main()
    printArray(a,0,5);
    cout<<endl;
    printReverseArray(a,4);
-
+   sum(a,0,5);
    sum(a,0,5);
    
 

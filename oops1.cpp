@@ -29,6 +29,11 @@ class Student
     {
       cout<<name<<endl;
     }
+
+    void getage()
+    {
+      cout<<age<<endl;
+    }
     
 };
 
@@ -53,11 +58,11 @@ int main()
       // cout<<s2.age<<" "<<endl;;
       // cout<<s2.name<<" ";
           Student s1;
-          s1.setName("shubham");
+          s1.setName("Shubham");
           s1.setage(10);
           s1.setroll_number(21);
           s1.setgrade("A+");
-          cout<<s1.setName("shubham")<<endl;
+          s1.getname();
       
 
 

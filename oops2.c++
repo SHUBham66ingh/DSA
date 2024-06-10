@@ -3,8 +3,8 @@ using namespace std;
 
 class a
 {     char d;
-    int b;
-    char c;
+      int b;
+      char c;
 };
 
 

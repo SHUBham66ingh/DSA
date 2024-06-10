@@ -5,6 +5,7 @@ class a
 {     char d;
       int b;
       char c;
+      double e;
 };
 
 

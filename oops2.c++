@@ -4,7 +4,7 @@ using namespace std;
 class a
 {
     int b;
-    int c;
+    char c;
 };
 
 

@@ -63,6 +63,7 @@ int main()
           s1.setroll_number(21);
           s1.setgrade("A+");
           s1.getname();
+          s1.getage();
       
 
 

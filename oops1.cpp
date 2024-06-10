@@ -7,11 +7,29 @@ class Student
    string name;
    int age , roll_number;
    string grade;
-   public:
-   void  setname(string n)
-   {
-      name = n;
-   }
+     public:
+    void setName(string s)
+    {
+      name = s;
+    }
+    void setage(int a)
+    {
+      age = a;
+    }
+    void setroll_number(int b)
+    {
+       roll_number = b;;
+    }
+    void setgrade(string r)
+    {
+       grade  = r;
+    }
+
+    void getname()
+    {
+      cout<<name<<endl;
+    }
+    
 };
 
 int main()
@@ -34,9 +52,12 @@ int main()
 
       // cout<<s2.age<<" "<<endl;;
       // cout<<s2.name<<" ";
-      Student s1;
-      s1.setname("shubham");
-
+          Student s1;
+          s1.setName("shubham");
+          s1.setage(10);
+          s1.setroll_number(21);
+          s1.setgrade("A+");
+          cout<<s1.setName("shubham")<<endl;
       
 
 

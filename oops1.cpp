@@ -30,6 +30,7 @@ class Student
        grade  = r;
     }
 
+
     void getname()
     {
       cout<<name<<endl;
@@ -49,6 +50,8 @@ class Student
     {
       if(pin==123)
       return grade;
+
+      return " " ;
     }
 
     
@@ -82,6 +85,8 @@ int main()
           s1.getname();
           s1.getage();
           cout<<s1.getroll_number()<<endl;
+ 
+         
       
 
 

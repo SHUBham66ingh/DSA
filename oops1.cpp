@@ -10,6 +10,11 @@ class Student
      public:
     void setName(string s)
     {
+      if(s.size()==0)
+      {
+        cout<<"invalid name"<<endl;
+      return ;
+      }
       name = s;
     }
     void setage(int a)
@@ -34,6 +39,12 @@ class Student
     {
       cout<<age<<endl;
     }
+
+    int getroll_number()
+    {
+      return roll_number;
+    }
+
     
 };
 
@@ -64,6 +75,7 @@ int main()
           s1.setgrade("A+");
           s1.getname();
           s1.getage();
+          cout<<s1.getroll_number()<<endl;
       
 
 

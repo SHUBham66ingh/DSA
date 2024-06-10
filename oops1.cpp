@@ -45,6 +45,12 @@ class Student
       return roll_number;
     }
 
+    string get_grade(int pin)
+    {
+      if(pin==123)
+      return grade;
+    }
+
     
 };
 

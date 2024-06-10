@@ -2,7 +2,7 @@
 using namespace std;
 
 class a
-{
+{     char d;
     int b;
     char c;
 };

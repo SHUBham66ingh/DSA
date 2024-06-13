@@ -85,11 +85,7 @@ int main()
           s1.getname();
           s1.getage();
           cout<<s1.getroll_number()<<endl;
- 
          
-      
-
-
-
+         return 0;
 
 }

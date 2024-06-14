@@ -6,9 +6,9 @@ int main()
      int i=0,j=0;
     int arr[]={2,3,-2,4};
     for(int i=0;i<4;i++)
-    {
+    {   
         for( j=i;j<4;j++)
-        product=1;
+       product=1;
         {
          for( k=i;k<j;k++)
          {

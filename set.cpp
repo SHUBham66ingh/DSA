@@ -1,10 +1,15 @@
 #include<iostream>
 #include <unordered_set>
 #include <iterator>  
+#include <vector>
 using namespace std;
 int main()
 {
-    int arr[]={7,8,4,6,0,1,2};
-    unordered_set<int>set(arr.begin() , arr.end());
+    vector<int> v={1,2,9,6,5,3,32,32,4};
+    unordered_set<int> set(v.begin() , v.end());
 
+    for (const int& num : set) {
+        cout << num << " ";
+    }
+    cout << endl;
 }

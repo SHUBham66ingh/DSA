@@ -11,5 +11,6 @@ int main()
     for (const int& num : set) {
         cout << num << " ";
     }
-    cout << endl;
+    cout <<endl<<" ";
+    // ok 
 }

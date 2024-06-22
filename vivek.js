@@ -1,6 +1,6 @@
 class student
 {
-    construceter(id, name)
+    constructor(id, name)
     {
         this.id=id;
         this.name= name;
@@ -13,5 +13,6 @@ class student
 }
 
 var stud1 = new student(201, "ram");
-student.display();
+var stud2= 
+
 

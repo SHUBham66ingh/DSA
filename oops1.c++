@@ -2,14 +2,21 @@
 using namespace std;
 class Student
 {
-    public:
     string name;
-    int roll_number;
+    public:
+    void setname(string s)
+    {
+        name = s;
+    }
+    void getname()
+    {
+       cout<<name<<endl;
+    }
 };
 int main()
 {
     Student s1;
-    s1.name = "shubham";
-    cout<<s1.name<<endl;
+    s1.setname("aman");
+    s1.getname();
 
 }

@@ -1,8 +1,11 @@
 {
     "files.associations": {
+        "*.ejs": "html",
         "cmath": "cpp",
         "complex": "cpp",
         "random": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "string": "cpp"
     }
 }

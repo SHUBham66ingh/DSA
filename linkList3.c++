@@ -30,6 +30,7 @@ void printLinkedList(node* head) {
     }
     cout << "NULL" << endl;
 }
+
 int main()
 {
        node *head;

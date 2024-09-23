@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 #include <vector>
-
-
  void merge(int arr[] , int start , int mid , int end)
  {
    vector<int>temp(end-start+1);

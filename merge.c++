@@ -49,7 +49,6 @@ void mergeSort(int arr[], int start , int end)
     mergeSort(arr,  start , mid);
     mergeSort(arr,  mid +1  , end);
     merge(arr, start , mid , end); 
-
 }
 
 
